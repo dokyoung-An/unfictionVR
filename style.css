@@ -7,15 +7,15 @@
 .image-overlay {
     position: relative;
     width: 100%;
-    max-width: 1200px; /* 원하는 가로 크기로 조정 */
+   
     margin: auto;
     overflow: hidden;
   }
   
   /* 이미지 스타일 */
   .image-overlay img {
-    width: 100%;
-    height: auto;
+    width: 100vw;
+    height: 100vh;
     display: block;
   }
   
